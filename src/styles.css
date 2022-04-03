@@ -1,0 +1,72 @@
+:root {
+  --box-shadow: 0 5 10 rgba(0, 0, 0, 0.3);
+  --primary-color: rgb(255, 153, 139);
+  --secondary-color: rgb(255, 232, 232);
+  --font: "Playfair Display", serif;
+}
+
+.body-class {
+  font-family: sans-serif;
+  padding: 0 20px;
+  margin: 60px auto;
+  max-width: 800px;
+  display: block;
+  text-align: center;
+  background-color: var(--secondary-color);
+  line-height: 2;
+}
+
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Mono', monospace;*/
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  font-family: var(--font);
+}
+
+h2 {
+  color: #231d3c;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: var(--font);
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+.btn {
+  background-color: var(--primary-color);
+}
+
+.btn-class {
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 5px;
+}
+
+.fw-icon {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 50px;
+}
+
+.fw-icon i {
+  margin: 10px;
+}
